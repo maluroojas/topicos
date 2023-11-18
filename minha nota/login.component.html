@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="login.component.css">
+
+<form id="avaliacaoForm" action="http://10.8.38.128:5000/notas_info6" method="post"></form>
+
+<div class="container">
+    <div class="login">
+        <h2>Minha Nota Bimestral</h2>
+    
+        <div class="input">
+            <i class='bx bx-envelope'></i>
+
+            <input type="email" 
+            name="email" 
+            id="email" 
+            placeholder="E-mail:" 
+            [(ngModel)]="" 
+            />
+
+        </div>
+        <div class="input">
+            <i class='bx bxs-lock'></i>
+
+            <input type="number" 
+            name="nota_sugerida_bimestre1" 
+            id="nota_sugerida_bimestre1" 
+            placeholder="Nota Sugerida:"  
+            [(ngModel)]=""
+            />
+
+            <i class='bx bxs-low-vision'></i>
+        </div>
+        
+        <button class="button" (click)="login()">Enviar</button>
+      
+
+    </div>
+</div>
