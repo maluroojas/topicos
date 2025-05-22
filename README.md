@@ -1,2 +1,2 @@
 # topicos
-Aula da matéria Tópicos Especiais - Téc. Informática
+Atividade da matéria de Tópicos Especiais do curso Técnico Integrado em Informática
